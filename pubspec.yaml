@@ -1,0 +1,64 @@
+name: quarry_ocr
+description: A Flutter OCR application using RapidOCR API
+version: 1.0.0+1
+
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # HTTP
+  http: ^1.2.2
+
+  # File picker
+  file_picker: ^8.1.2
+
+  # Global hotkey
+  hotkey_manager: ^0.2.3
+
+  # File drag-and-drop into window
+  desktop_drop: ^0.4.4
+
+  # Clipboard
+  super_clipboard: ^0.8.18
+
+  # System tray
+  tray_manager:
+    git:
+      url: https://github.com/PythiaLaurus/tray_manager.git
+      ref: main
+      path: packages/tray_manager
+
+  # Window management
+  window_manager: ^0.3.9
+
+  # Config / preferences
+  shared_preferences: ^2.3.2
+
+  # Open URLs in browser
+  url_launcher: ^6.3.0
+
+  # Path utilities
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  package_info_plus: ^9.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tray_icon.ico
+    - assets/tray_icon_active.ico
