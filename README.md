@@ -2,10 +2,10 @@
     <img src="./doc/logo.png" width=350>
     <br>
     <p>
-        <img src="https://img.shields.io/github/license/XJTU-WXY/QuarryOCR">
+        <img src="https://img.shields.io/badge/license-%20%20GNU%20GPLv3%20-orange?style=plastic">
         <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=fff">
     	<img src="https://img.shields.io/badge/Dart-%230175C2.svg?logo=dart&logoColor=white">
-        <img src="https://img.shields.io/github/stars/XJTU-WXY/MiruMiruDesktop?style=social">
+        <img src="https://img.shields.io/github/stars/XJTU-WXY/QuarryOCR?style=social">
     </p>
 
 </div>
@@ -24,14 +24,13 @@
    |名称|说明|仓库地址|文档|
    |----|-----|-------|----|
    |RapidOCRAPI|RapidOCR 官方实现|[RapidAI/RapidOCRAPI](https://github.com/RapidAI/RapidOCRAPI)|[查看](https://rapidai.github.io/RapidOCRDocs/latest/install_usage/rapidocr_api/usage/)
-   |RapidOCRAPI-Paddle|基于 Paddle 框架，支持 GPU 加速|Coming soon ...|
+   |RapidOCRServer|基于官方实现重构，支持硬件加速|[XJTU-WXY/RapidOCRServer](https://github.com/XJTU-WXY/RapidOCRServer)|[查看](https://github.com/XJTU-WXY/RapidOCRServer/blob/master/README.md)
 2. 在 QuarryOCR 设置界面中填写推理 API 并保存设置，若推理后端以默认参数在本机运行，则无需修改。
 3. 通过剪贴板或文件读入图片，若 API 配置正确，则会在左侧展示识别结果候选框，右侧展示识别结果文本。
 4. 点选需要的候选框，支持按住鼠标左键批量选择、鼠标滚轮缩放、鼠标右键拖动，并点击`复制选中文本`。
 ## 📅 TODO
 - [ ] 支持多平台（Linux、macOS）
 - [ ] 支持多国语言
-- [ ] 支持更多 OCR API 规范
 
 ## ⚖ 开源协议
 本项目基于 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源.
